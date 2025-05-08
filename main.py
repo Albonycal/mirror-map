@@ -92,7 +92,7 @@ def update_markers(n):
 
             marker = dl.Marker(
                 position=[info['lat'], info['lon']],
-                icon=icon_dict,  # ✅ Use dictionary instead of dl.Icon()
+                icon=icon_dict, 
                 children=[
                     dl.Tooltip(info['location']),
                 dl.Popup(html.Div([
