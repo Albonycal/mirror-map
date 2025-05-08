@@ -1,0 +1,4 @@
+requests
+dash
+dash-leaflet
+gunicorn

@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  app:
+    build: . # Builds using the updated Dockerfile
+    container_name: mirror-map-app
+    network_mode: bridge 
+    restart: unless-stopped
+    ports:
+      - "8050:8050"      
